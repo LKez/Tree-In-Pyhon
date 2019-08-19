@@ -1,0 +1,13 @@
+/
+Documentos/
+BMTH.zip
+	archivos/
+		source.py
+		archivo.jpg
+	ejemplo.txt
+	eda/
+		weqr.csv
+		sdgfs.tsv
+		hola.cpp
+	wer/
+we.mp3
