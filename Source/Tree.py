@@ -1,4 +1,4 @@
-from LinkedList import *
+from Source.LinkedList import *
 
 class Tree():
     def __init__(self):
@@ -8,15 +8,25 @@ class Tree():
     def add(self,value):
         parent = self.root
         self.addIn(value,parent)
-        self.size = self.size +1
 
     def addIn(self,value,parent):
-        parent.add(value)    
+        parent.add(value)
+
+    def addChildren(self,value,parent):
+        self.root.addIn(value,parent)        
 
     def _print(self):
         current = self.root
         return current._print()
-        
+
+    def _printInTree(self):
+        return self.root._printInTree()
+
+    def delete(self,parent,father=""):
+        self.root.delete(parent,father)
+
+    def search(self,value):
+       return self.root.search(value)
 
     def _printIn(self,value,parent):
         parent._printIn(parent.first)        

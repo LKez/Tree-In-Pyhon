@@ -1,8 +1,8 @@
 
 
 def children():
-    from LinkedList import LinkedList
-    return LinkedList        
+    from Source.LinkedList import LinkedList
+    return LinkedList()        
 
 class Node():
     def __init__(self,name):
@@ -10,6 +10,3 @@ class Node():
         self.name = name
         self.next = None
 
-    def trip(self):
-        h = self.name
-        return h

@@ -1,17 +1,17 @@
 
 class Compare():
     def __init__(self):
-        self.alphabet = ".,-;:_^`~!@#$%&/()=?¡¿¡[]{*}012345678890ABCDEFGHIJKLMNÑOPQRSTUVwXYZÁÉÍÓÚÜabcdefghijklmnñopqrstuvwxyzáéíóúü"
+        self.alphabet = ".,-;:_^`~!@#$%&/()=?¡¿¡[]{*}012345678890ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÜabcdefghijklmnñopqrstuvwxyzáéíóúü"
         
     def compare(self,obj1,obj2):
         
-        if(type(obj1) == "int"):
+        if(isinstance(obj1,int)):
             obj1 = "%s" % obj1
-        if(type(obj1) == "Node.Node"):
+        if(isinstance(obj1,Node)):
             obj1 = obj1.name
-        if(type(obj2) == "int"):
+        if(isinstance(obj2,int)):
             obj2 = "%s" % obj2
-        if(type(obj2) == "Node.Node"):
+        if(isinstance(obj2,Node)):
             obj2 = obj2.name   
 
         obj1 = obj1.strip()
@@ -22,13 +22,16 @@ class Compare():
         else:
             lesser = self.compareLesserLength(obj1,obj2)
             for i in range(lesser):
+                if(len(obj1) < len(obj2)):
+                    return -1
+                elif(len(obj2) < len(obj1)):
+                    return 1    
                 if(type(obj1[i]) != "undefined" and type(obj2[i]) != "undefined" and self.alphabet.index(obj1[i]) < self.alphabet.index(obj2[i])):
                     return -1
                 elif(type(obj1[i]) != "undefined" and type(obj2[i]) != "undefined" and self.alphabet.index(obj1[i]) > self.alphabet.index(obj2[i])):      
                     return 1 
-                if( len(obj1) < len(obj2)):
-                    return -1
-                return 1    
+
+            return 1    
 
     def compareLesserLength(self,str1,str2):
         l = 0

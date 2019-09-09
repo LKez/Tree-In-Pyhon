@@ -75,7 +75,7 @@ border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Icons/aíndice.png</normaloff>../Icons/aíndice.png</iconset>
+      <normaloff>Source/Icons/aíndice.png</normaloff>Source/Icons/aíndice.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -101,7 +101,7 @@ border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Icons/}.png</normaloff>../Icons/}.png</iconset>
+      <normaloff>Source/Icons/}.png</normaloff>Source/Icons/}.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -131,7 +131,7 @@ color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255,
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Icons/asdasd.png</normaloff>../Icons/asdasd.png</iconset>
+      <normaloff>Source/Icons/asdasd.png</normaloff>Source/Icons/asdasd.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -157,7 +157,7 @@ color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255,
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Icons/120827.png</normaloff>../Icons/120827.png</iconset>
+      <normaloff>Source/Icons/120827.png</normaloff>Source/Icons/120827.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -183,7 +183,7 @@ color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255,
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Icons/61752.svg</normaloff>../Icons/61752.svg</iconset>
+      <normaloff>Source/Icons/61752.svg</normaloff>Source/Icons/61752.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -254,7 +254,7 @@ border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Icons/aíndice.png</normaloff>../Icons/aíndice.png</iconset>
+      <normaloff>Source/Icons/aíndice.png</normaloff>Source/Icons/aíndice.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -280,7 +280,7 @@ border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Icons/}.png</normaloff>../Icons/}.png</iconset>
+      <normaloff>Source/Icons/}.png</normaloff>Source/Icons/}.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -310,7 +310,7 @@ color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255,
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../Icons/asdasd.png</normaloff>../Icons/asdasd.png</iconset>
+      <normaloff>Source/Icons/asdasd.png</normaloff>Source/Icons/asdasd.png</iconset>
     </property>
     <property name="iconSize">
      <size>
